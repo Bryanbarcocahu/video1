@@ -22,8 +22,7 @@
 </head>
 <body>
     <video controls autoplay loop>
-        <source src="https://drive.google.com/file/d/1mrnDs_VazT6Tee1t6NdtD0h6lfgw_GM_/view?usp=share_link" type="video/mp4">
-        Tu navegador no soporta videos en HTML5.
+        <iframe src="https://drive.google.com/file/d/tu_video_ID/preview" width="100%" height="500"></iframe>
     </video>
 </body>
 </html>
