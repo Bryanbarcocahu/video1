@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Videos</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <video controls autoplay loop>
+        <source src="https://drive.google.com/file/d/1mrnDs_VazT6Tee1t6NdtD0h6lfgw_GM_/view?usp=share_link" type="video/mp4">
+        Tu navegador no soporta videos en HTML5.
+    </video>
+</body>
+</html>
